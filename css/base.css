@@ -1,0 +1,35 @@
+.body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #424242;
+}
+
+.none {
+  display: none !important;
+}
+
+.visually-hidden {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+  display: block;
+  margin-left: transparent;
+  font-size: 0;
+}
+
+.container {
+  /* width: 1400px; */
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1399px) {
+  .container {
+    width: 100%;
+  }
+}
